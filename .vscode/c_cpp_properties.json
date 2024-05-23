@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "D:/Projects/DSP_Projects/DSP2833x_Libraries/DSP2833x_common/include",
+                "D:/Projects/DSP_Projects/DSP2833x_Libraries/DSP2833x_headers/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "__CC_ARM",
+                "_UNICODE"
+            ],
+            "mergeConfigurations": false,
+            "browse": {
+                "path": [
+                    "d:/Projects/DSP_Projects/DSP2833x_Examples/2024_05_14_DSP2833x_Learning",
+                    "D:/Projects/DSP_Projects/DSP2833x_Libraries/DSP2833x_common/include",
+                    "D:/Projects/DSP_Projects/DSP2833x_Libraries/DSP2833x_headers/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}

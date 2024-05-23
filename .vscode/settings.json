@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "key_user.h": "c",
+        "dsp2833x_device.h": "c",
+        "leds.h": "c",
+        "key.h": "c",
+        "dsp2833x_examples.h": "c"
+    },
+    "digital-ide.welcome.show": false
+
+}

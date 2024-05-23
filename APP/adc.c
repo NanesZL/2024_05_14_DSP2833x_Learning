@@ -36,8 +36,9 @@ void ADC_Init(void)
 Uint16 ADC_ReadValue(void)
 {
 	while (AdcRegs.ADCST.bit.INT_SEQ1 == 0)
-		;
-	AdcRegs.ADCST.bit.INT_SEQ1_CLR = 1;
+	{
+		AdcRegs.ADCST.bit.INT_SEQ1_CLR = 1;
+	};
 	return AdcRegs.ADCRESULT0 >> 4;
 }
 
